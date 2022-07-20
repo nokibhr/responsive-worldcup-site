@@ -39,6 +39,39 @@ main {
     line-height: 80px;
 }
 
+#great {
+    color: orangered;
+}
+
+.the-greatest-show span {
+    animation: text 3s 1;
+}
+
+@keyframes text {
+    0% {
+        font-size: 40px;
+        padding: 30px;
+    }
+
+    30% {
+        font-size: 40px;
+        letter-spacing: 10px;
+        margin-top: 30px;
+    }
+
+    85% {
+        font-size: 40px;
+        letter-spacing: 5px;
+        margin-top: 30px;
+    }
+
+    100% {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+}
+
+
 .the-greatest-show p {
     width: 506px;
     height: 78px;
@@ -286,6 +319,31 @@ hr {
         line-height: 50px;
     }
 
+    @keyframes text {
+        0% {
+            font-size: 11px;
+            padding: 30px;
+        }
+
+        30% {
+            font-size: 11px;
+            letter-spacing: 10px;
+            margin-top: 30px;
+        }
+
+        85% {
+            font-size: 11px;
+            letter-spacing: 5px;
+            margin-top: 30px;
+        }
+
+        100% {
+            font-size: 14px;
+            margin-top: 30px;
+        }
+    }
+
+
     .the-greatest-show p {
         width: 316px;
         height: 48px;
@@ -402,7 +460,33 @@ hr {
         font-size: 22px;
         font-weight: 700;
         line-height: 33px;
+        padding-bottom: 20px;
     }
+
+    @keyframes text {
+        0% {
+            font-size: 11px;
+            padding: 30px;
+        }
+
+        30% {
+            font-size: 11px;
+            letter-spacing: 10px;
+            margin-top: 30px;
+        }
+
+        85% {
+            font-size: 11px;
+            letter-spacing: 5px;
+            margin-top: 30px;
+        }
+
+        100% {
+            font-size: 14px;
+            margin-top: 30px;
+        }
+    }
+
 
     .the-greatest-show p {
         width: 258px;
