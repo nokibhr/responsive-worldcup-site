@@ -187,3 +187,55 @@ main {
     align-items: center;
     column-gap: 20px;
 }
+
+/* ----------------
+    footer style 
+------------------ */
+.footer {
+    width: 1600px;
+    height: 444px;
+    background-color: #161616;
+    margin-top: 100px;
+}
+
+
+.footer h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+hr {
+    width: 1000px;
+    border: 1px solid #b9b9b9;
+}
+
+
+.footer-level {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.footer-level h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b9b9b9;
+}
+
+/*-------------------------------------------------------
+                     media query 
+---------------------------------------------------------- */
