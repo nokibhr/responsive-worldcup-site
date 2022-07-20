@@ -188,6 +188,27 @@ main {
     column-gap: 20px;
 }
 
+.view-all {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+
+
+
+.view-all a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
 /* ----------------
     footer style 
 ------------------ */
@@ -239,3 +260,233 @@ hr {
 /*-------------------------------------------------------
                      media query 
 ---------------------------------------------------------- */
+
+
+/* responsive for tab (Best view for Nest Hub)  */
+@media (min-width: 689px) and (max-width:1024px) {
+    .container {
+        display: flex;
+        column-gap: 150px;
+        background-color: #161616;
+        width: 734px;
+        height: 398px;
+        margin-top: 50px;
+        padding: 106px;
+        padding-bottom: 0px;
+        border-radius: 15px;
+    }
+
+    .the-greatest-show h1 {
+        width: 289px;
+        height: 150px;
+        color: #FFFFFF;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .the-greatest-show p {
+        width: 316px;
+        height: 48px;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    .button-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+        width: 161px;
+        height: 48px;
+        background: #DD0000;
+        border-radius: 5px;
+    }
+
+    .marcelo img {
+        width: 323px;
+        height: 100%;
+    }
+
+    .content-1 {
+        display: flex;
+        flex-direction: column;
+        column-gap: 140px;
+        margin-top: 130px;
+    }
+
+    .buttons-style {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: #16161600;
+        border-radius: 10px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 70px;
+        grid-row-gap: 80px;
+    }
+
+    .view-all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+        width: 187px;
+        height: 56px;
+        background: #DD0000;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+
+
+    .view-all a {
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+        background-color: #161616;
+        margin-top: 100px;
+    }
+
+    .footer-level h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #b9b9b9;
+        margin-bottom: 100px;
+    }
+
+}
+
+/* responsive for mobile  */
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        column-gap: 150px;
+        background-color: #161616;
+        width: 334px;
+        height: 472px;
+        margin-top: 50px;
+        padding: 106px;
+        padding-bottom: 0px;
+        border-radius: 15px;
+    }
+
+    .the-greatest-show h1 {
+        width: 228px;
+        height: 66px;
+        color: #FFFFFF;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 33px;
+    }
+
+    .the-greatest-show p {
+        width: 258px;
+        height: 48px;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 12px;
+        text-align: left;
+    }
+
+    .button-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+        width: 161px;
+        height: 48px;
+        background: #DD0000;
+        border-radius: 5px;
+    }
+
+    .marcelo img {
+        width: 233px;
+        height: 100%;
+    }
+
+    .content-1 {
+        display: flex;
+        flex-direction: column;
+        column-gap: 140px;
+        margin-top: 130px;
+    }
+
+    .buttons-style {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-row-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: #16161600;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 10px;
+    }
+
+    footer {
+        width: 100%;
+        height: 300px;
+        background-color: #161616;
+        margin-top: 100px;
+    }
+
+    .footer h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .footer-level {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        column-gap: 5px;
+    }
+
+    .footer-level h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 5px;
+        color: #b9b9b9;
+        margin-bottom: 250px;
+
+    }
+
+
+}
