@@ -424,6 +424,11 @@ hr {
         margin-top: 100px;
     }
 
+    hr {
+        width: 300px;
+        border: 1px solid #b9b9b9;
+    }
+
     .footer-level h6 {
         font-family: 'Poppins';
         font-style: normal;
@@ -545,6 +550,11 @@ hr {
         height: 2000px;
         background-color: #161616;
         margin-top: 100px;
+    }
+
+    hr {
+        width: 300px;
+        border: 1px solid #b9b9b9;
     }
 
     .footer h1 {
